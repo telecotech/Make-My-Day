@@ -1,25 +1,6 @@
 body {
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  background-color: #154883;
-}
-.header{
- 
-border-bottom:10px solid black; 
-border:dark; 
-text-align:center;
-height: 200px;
-width: 100%;
-display:flex;
-align-content:space-around;
-flex-direction:column;
-}
-
-.header-h1{
-  align-content: space-between;
-  font-family: 'Gajraj One', cursive;
-  font-size: 50px;
-
-
 }
 
 textarea {
@@ -30,8 +11,7 @@ textarea {
   border-left: 1px solid black;
   padding: 10px;
 }
-
-.description {
+.description{
   white-space: pre-wrap;
 }
 
@@ -50,21 +30,21 @@ textarea {
 }
 
 .past {
-  background-color: #e11b1b;
-  color: rgb(232, 219, 219);
-  opacity: 60%;
+  background-color: #d70f0f;
+  color: black;
+  opacity:60%;
 }
 
 .present {
-  background-color: #12bd2e;
-  color: white;
+  background-color: #4dea42;
+  color: black;
   opacity: 60%;
 }
 
 .future {
-  background-color: #51545c;
-  color: white;
-  opacity:60%;
+  background-color: #10ace4;
+  color: black;
+  opacity: 60%;
 }
 
 .saveBtn {
@@ -78,8 +58,14 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+ 
 }
-
+.answer {
+  color: rgb(124, 221, 231);
+  font-size: 25px;
+  margin-left: 4%;
+  font-family: 'Roboto', sans-serif;
+}
 
 @media screen and (max-width: 800px) {
   .left, .main, .right {
