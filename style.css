@@ -1,6 +1,25 @@
 body {
-  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  background-color: #154883;
+}
+.header{
+ 
+border-bottom:10px solid black; 
+border:dark; 
+text-align:center;
+height: 200px;
+width: 100%;
+display:flex;
+align-content:space-around;
+flex-direction:column;
+}
+
+.header-h1{
+  align-content: space-between;
+  font-family: 'Gajraj One', cursive;
+  font-size: 50px;
+
+
 }
 
 textarea {
@@ -31,18 +50,21 @@ textarea {
 }
 
 .past {
-  background-color: #d3d3d3;
-  color: white;
+  background-color: #e11b1b;
+  color: rgb(232, 219, 219);
+  opacity: 60%;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #12bd2e;
   color: white;
+  opacity: 60%;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #51545c;
   color: white;
+  opacity:60%;
 }
 
 .saveBtn {
@@ -56,4 +78,11 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; 
+  }
 }
