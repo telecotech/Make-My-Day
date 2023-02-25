@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   // Define the displayTime() function to display the current date and time in the header
   var now = dayjs();
-  var formattedDateTime = now.format("dddd, MMMM D, YYYY H:mm A");
+  var formattedDateTime = now.format("dddd, MMMM D, YYYY h:mm A");
   $("#currentDay").text(formattedDateTime);
 
  
